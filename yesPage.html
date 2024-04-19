@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                height: 100vh;
+                margin: 0px;
+                background-color: #000;
+            }
+            .img {
+                width: 40%;
+                animation-name: zoom-in-out;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 0s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes zoom-in-out {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.2);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+            h1 {
+                color: #fff;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                text-align: center;
+                text-wrap: wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./heart-img.png" class="img" alt="img" />
+        <h1>Thanks Pavi From Jithendra 🤧💞</h1>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                height: 100vh;
+                margin: 0px;
+                background-color: #000;
+                color: #fff;
+            }
+            h1 {
+                text-align: center;
+            }
+            .btn {
+                padding: 10px 20px;
+                background-color: #f00;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            .yes-btn {
+                background-color: #f00;
+                color: #fff;
+            }
+            .no-btn {
+                background-color: #000;
+                color: #fff;
+                border: 1px solid #f00;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .btns-container {
+                display: flex;
+                gap: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Will you Marry Me 💌💒 <span>👩‍❤️‍👨</span></h1>
+
+        <div class="btns-container">
+            <button class="btn yes-btn">
+                <a href="./yesPage.html">Yes 🩶 </a>
+            </button>
+            <button class="btn no-btn">
+                <a href="./marryMe.html" onclick="alert(`please 🙏, 🤧`)">No</a>
+            </button>
+        </div>
+    </body>
+</html>
